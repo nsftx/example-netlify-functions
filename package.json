@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "npm run build-lambda",
-    "build-lambda": "netlify-lambda build ./src/lambda",
+    "build": "npm run build-functions",
+    "build-functions": "netlify-lambda build ./src/functions",
     "lint": "eslint src/**"
   },
   "dependencies": {
