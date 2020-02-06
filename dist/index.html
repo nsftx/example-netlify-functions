@@ -3,9 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>Netlify Functions</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script>
+      var sendMail = function () {
+        var emailTo = document.getElementById('emailTo').value;
+        axios.post('/.netlify/functions/sendMail', {
+          to: emailTo,
+        }).then(function(response) {
+          console.log(response.data);
+        });
+      };
+    </script>
   </head>
   <body>
-    <input type="email">
-    <button>Send e-mail</button>
+    <input id="emailTo" type="email" size="40">
+    <button onclick="sendMail()">Send e-mail</button>
   </body>
 </html>
