@@ -11,7 +11,7 @@ export async function handler(event) {
     from: 'jadranko.dragoje@gmail.com',
     subject: 'Sending e-mail with SendGrid and Netlify',
     text: 'This is easy to do and it just works',
-    html: 'This is easy to do and it <strong>just works</strong>',
+    html: 'This is easy to do and it <strong>just works!</strong>',
   };
 
   sgMail.send(message);
