@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import response from './utility/response';
 
 export async function handler() {
