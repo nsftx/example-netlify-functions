@@ -12,4 +12,4 @@ Functions are automatically deployed to Netlify.
 
 ## Presentation
 
-You can check presentation on [this](.github/download/serverless.pdf) link.
+You can check presentation on [this](.github/serverless.pdf) link.
