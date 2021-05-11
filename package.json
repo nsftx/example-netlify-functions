@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^6.5.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "netlify-lambda": "^1.6.3"
   },
   "devDependencies": {
